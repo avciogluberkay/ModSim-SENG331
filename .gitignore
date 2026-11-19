@@ -221,3 +221,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+cikti/
+output/
+.DS_Store
+Thumbs.db
+temp_output*
+
