@@ -1,0 +1,5 @@
+time,event
+0,simulation_start
+14400,rush_start
+21600,rush_end
+43200,simulation_end

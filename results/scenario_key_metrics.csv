@@ -1,0 +1,93 @@
+scenario,factor,level_label,metric,level,group,period,unit,n,mean,half_width,ci_low,ci_high
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane_kind,manual,all,s,167,2.162437352,0.06243540007,2.100001952,2.224872752
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane_kind,etc,all,s,167,0.09034550426,0.001522536087,0.08882296818,0.09186804035
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,vehicle_type,manual,all,s,167,2.162437352,0.06243540007,2.100001952,2.224872752
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,vehicle_type,etc,all,s,167,0.09034550426,0.001522536087,0.08882296818,0.09186804035
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,vehicle_type,manual,rush,s,167,5.577604428,0.1620315157,5.415572912,5.739635944
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,vehicle_type,etc,rush,s,167,0.205435067,0.003883340171,0.2015517269,0.2093184072
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_time_in_system,overall,all,all,s,167,8.988922758,0.03162092414,8.957301834,9.020543682
+baseline,baseline,"3M + 2E, p_etc = 0.60",pct_wait_over_120s,overall,all,all,%,167,0,0,0,0
+baseline,baseline,"3M + 2E, p_etc = 0.60",pct_wait_over_120s_incl_queued,overall,all,all,%,167,0,0,0,0
+baseline,baseline,"3M + 2E, p_etc = 0.60",time_avg_queue,plaza,all,all,vehicles,167,0.1472691001,0.004159914589,0.1431091855,0.1514290147
+baseline,baseline,"3M + 2E, p_etc = 0.60",max_queue,plaza,all,all,vehicles,167,3.203592814,0.1027470755,3.100845739,3.30633989
+baseline,baseline,"3M + 2E, p_etc = 0.60",utilization,lane_kind,manual,all,fraction,167,0.3344119402,0.0009915438209,0.3334203964,0.335403484
+baseline,baseline,"3M + 2E, p_etc = 0.60",utilization,lane_kind,etc,all,fraction,167,0.1439268502,0.0003416979106,0.1435851523,0.1442685481
+baseline,baseline,"3M + 2E, p_etc = 0.60",time_avg_number_in_system,plaza,all,all,vehicles,167,1.438358621,0.006109057081,1.432249564,1.444467678
+baseline,baseline,"3M + 2E, p_etc = 0.60",n_censored_in_queue,overall,all,all,count,167,0.02994011976,0.02611546999,0.003824649769,0.05605558975
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane_kind,manual,all,s,167,88.42610892,6.358252044,82.06785688,94.78436096
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane_kind,etc,all,s,167,0.0116618606,0.0004354286054,0.011226432,0.01209728921
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,vehicle_type,manual,all,s,167,88.42610892,6.358252044,82.06785688,94.78436096
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,vehicle_type,etc,all,s,167,0.0116618606,0.0004354286054,0.011226432,0.01209728921
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,vehicle_type,manual,rush,s,167,238.092171,16.30321252,221.7889584,254.3953835
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,vehicle_type,etc,rush,s,167,0.03017764905,0.001182337815,0.02899531124,0.03135998687
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_time_in_system,overall,all,all,s,167,43.53471953,2.584637171,40.95008236,46.1193567
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,pct_wait_over_120s,overall,all,all,%,167,10.01571575,0.5048593454,9.510856405,10.5205751
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,pct_wait_over_120s_incl_queued,overall,all,all,%,167,10.01561993,0.5048619627,9.510757965,10.52048189
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,time_avg_queue,plaza,all,all,vehicles,167,5.685378835,0.4175256074,5.267853228,6.102904442
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,max_queue,plaza,all,all,vehicles,167,31.85628743,1.898939468,29.95734796,33.75522689
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,utilization,lane_kind,manual,all,fraction,167,0.5016203704,0.001484447961,0.5001359224,0.5031048184
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,utilization,lane_kind,etc,all,fraction,167,0.09601430617,0.0002273003802,0.09578700579,0.09624160655
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,time_avg_number_in_system,plaza,all,all,vehicles,167,6.976662494,0.4191248006,6.557537694,7.395787295
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,n_censored_in_queue,overall,all,all,count,167,0.09580838323,0.05095801723,0.044850366,0.1467664005
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane_kind,manual,all,s,167,0.5350241171,0.0155336664,0.5194904507,0.5505577835
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane_kind,etc,all,s,167,1.106592085,0.01676424405,1.089827841,1.123356329
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,vehicle_type,manual,all,s,167,0.5350241171,0.0155336664,0.5194904507,0.5505577835
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,vehicle_type,etc,all,s,167,1.106592085,0.01676424405,1.089827841,1.123356329
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,vehicle_type,manual,rush,s,167,1.433620287,0.03983932155,1.393780966,1.473459609
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,vehicle_type,etc,rush,s,167,2.325466314,0.04440963009,2.281056684,2.369875944
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_time_in_system,overall,all,all,s,167,8.946606812,0.01598281844,8.930623993,8.96258963
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,pct_wait_over_120s,overall,all,all,%,167,0,0,0,0
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,pct_wait_over_120s_incl_queued,overall,all,all,%,167,0,0,0,0
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,time_avg_queue,plaza,all,all,vehicles,167,0.1405633393,0.00195009333,0.138613246,0.1425134326
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,max_queue,plaza,all,all,vehicles,167,6.976047904,0.2179768447,6.758071059,7.194024749
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,utilization,lane_kind,manual,all,fraction,167,0.2507434718,0.0007429480893,0.2500005237,0.2514864199
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,utilization,lane_kind,etc,all,fraction,167,0.288037091,0.0007018072668,0.2873352837,0.2887388982
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,time_avg_number_in_system,plaza,all,all,vehicles,167,1.431574318,0.00430135964,1.427272958,1.435875677
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,n_censored_in_queue,overall,all,all,count,167,0.04790419162,0.04375730508,0.00414688654,0.09166149669
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane_kind,manual,all,s,167,80.84334148,5.32348037,75.51986111,86.16682185
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane_kind,etc,all,s,167,0.03957439514,0.00102122383,0.03855317131,0.04059561897
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,vehicle_type,manual,all,s,167,80.84334148,5.32348037,75.51986111,86.16682185
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,vehicle_type,etc,all,s,167,0.03957439514,0.00102122383,0.03855317131,0.04059561897
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,vehicle_type,manual,rush,s,167,220.4714778,13.92024339,206.5512344,234.3917212
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,vehicle_type,etc,rush,s,167,0.08945072877,0.002671882402,0.08677884637,0.09212261117
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_time_in_system,overall,all,all,s,167,59.18012027,3.219014752,55.96110552,62.39913503
+F2_p40,F2: ETC adoption,p_etc = 0.40,pct_wait_over_120s,overall,all,all,%,167,14.75889777,0.7195910578,14.03930671,15.47848883
+F2_p40,F2: ETC adoption,p_etc = 0.40,pct_wait_over_120s_incl_queued,overall,all,all,%,167,14.75877197,0.7195907098,14.03918126,15.47836268
+F2_p40,F2: ETC adoption,p_etc = 0.40,time_avg_queue,plaza,all,all,vehicles,167,7.788739569,0.5212387612,7.267500808,8.30997833
+F2_p40,F2: ETC adoption,p_etc = 0.40,max_queue,plaza,all,all,vehicles,167,29.20359281,1.597939997,27.60565282,30.80153281
+F2_p40,F2: ETC adoption,p_etc = 0.40,utilization,lane_kind,manual,all,fraction,167,0.5015034387,0.001172889981,0.5003305487,0.5026763287
+F2_p40,F2: ETC adoption,p_etc = 0.40,utilization,lane_kind,etc,all,fraction,167,0.09598128223,0.0002818109982,0.09569947123,0.09626309323
+F2_p40,F2: ETC adoption,p_etc = 0.40,time_avg_number_in_system,plaza,all,all,vehicles,167,9.48521245,0.5232945922,8.961917857,10.00850704
+F2_p40,F2: ETC adoption,p_etc = 0.40,n_censored_in_queue,overall,all,all,count,167,0.07185628743,0.04613641782,0.02571986961,0.1179927052
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane_kind,manual,all,s,167,0.27526244,0.0101407753,0.2651216647,0.2854032153
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane_kind,etc,all,s,167,0.1652038279,0.00209411956,0.1631097083,0.1672979474
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,vehicle_type,manual,all,s,167,0.27526244,0.0101407753,0.2651216647,0.2854032153
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,vehicle_type,etc,all,s,167,0.1652038279,0.00209411956,0.1631097083,0.1672979474
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,vehicle_type,manual,rush,s,167,0.6982775852,0.02698599689,0.6712915883,0.7252635821
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,vehicle_type,etc,rush,s,167,0.378100638,0.005428376097,0.3726722619,0.383529014
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_time_in_system,overall,all,all,s,167,5.719645496,0.01070316618,5.70894233,5.730348662
+F2_p80,F2: ETC adoption,p_etc = 0.80,pct_wait_over_120s,overall,all,all,%,167,0,0,0,0
+F2_p80,F2: ETC adoption,p_etc = 0.80,pct_wait_over_120s_incl_queued,overall,all,all,%,167,0,0,0,0
+F2_p80,F2: ETC adoption,p_etc = 0.80,time_avg_queue,plaza,all,all,vehicles,167,0.02997833258,0.0004533993016,0.02952493328,0.03043173189
+F2_p80,F2: ETC adoption,p_etc = 0.80,max_queue,plaza,all,all,vehicles,167,2.604790419,0.08544071724,2.519349702,2.690231136
+F2_p80,F2: ETC adoption,p_etc = 0.80,utilization,lane_kind,manual,all,fraction,167,0.1671295824,0.0007272893753,0.166402293,0.1678568718
+F2_p80,F2: ETC adoption,p_etc = 0.80,utilization,lane_kind,etc,all,fraction,167,0.1919301157,0.0004102132185,0.1915199025,0.1923403289
+F2_p80,F2: ETC adoption,p_etc = 0.80,time_avg_number_in_system,plaza,all,all,vehicles,167,0.9152273112,0.002599174015,0.9126281372,0.9178264852
+F2_p80,F2: ETC adoption,p_etc = 0.80,n_censored_in_queue,overall,all,all,count,167,0.01796407186,0.02637213926,-0.008408067399,0.04433621111
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,manual,all,s,167,2.231287047,0.05691871518,2.174368332,2.288205762
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,etc,all,s,167,0.04419155102,0.001007466711,0.04318408431,0.04519901773
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,hybrid,all,s,167,1.714628694,0.0824083937,1.6322203,1.797037088
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,vehicle_type,manual,all,s,167,2.203376853,0.0632796992,2.140097154,2.266656553
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,vehicle_type,etc,all,s,167,0.04709210631,0.001219299438,0.04587280687,0.04831140575
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,vehicle_type,manual,rush,s,167,5.692746608,0.1647918102,5.527954798,5.857538418
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,vehicle_type,etc,rush,s,167,0.1277681438,0.003331386748,0.124436757,0.1310995305
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_time_in_system,overall,all,all,s,167,8.980458531,0.03140240342,8.949056127,9.011860934
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,pct_wait_over_120s,overall,all,all,%,167,0,0,0,0
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,pct_wait_over_120s_incl_queued,overall,all,all,%,167,0,0,0,0
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,time_avg_queue,plaza,all,all,vehicles,167,0.1457190944,0.004216844626,0.1415022498,0.149935939
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,max_queue,plaza,all,all,vehicles,167,3.167664671,0.1069235178,3.060741153,3.274588188
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,utilization,lane_kind,manual,all,fraction,167,0.4177748808,0.001076472643,0.4166984082,0.4188513534
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,utilization,lane_kind,etc,all,fraction,167,0.1403864422,0.0003200965744,0.1400663456,0.1407065388
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,utilization,lane_kind,hybrid,all,fraction,167,0.1749690925,0.00105341332,0.1739156792,0.1760225059
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,time_avg_number_in_system,plaza,all,all,vehicles,167,1.437010833,0.00613199286,1.43087884,1.443142826
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,n_censored_in_queue,overall,all,all,count,167,0.02994011976,0.03103618621,-0.001096066451,0.06097630597

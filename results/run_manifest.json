@@ -1,0 +1,249 @@
+{
+  "created": "2026-11-24 23:17:36",
+  "runtime_seconds": 124.2,
+  "arguments": {
+    "n0": 30,
+    "beta": 0.1,
+    "report_betas": [
+      1.0,
+      0.5,
+      0.25,
+      0.1
+    ],
+    "confidence": 0.95,
+    "n_max": 1000,
+    "base_seed": 2025,
+    "jobs": null,
+    "per_scenario_nstar": false,
+    "outdir": "results",
+    "quick": false
+  },
+  "seeds": "base_seed + r for replication r = 0 .. n-1 (base_seed = 2025)",
+  "sample_run_seed": 2025,
+  "scenarios": [
+    {
+      "name": "baseline",
+      "factor": "baseline",
+      "level": "3M + 2E, p_etc = 0.60",
+      "config": {
+        "horizon": 43200.0,
+        "rush_start": 14400.0,
+        "rush_end": 21600.0,
+        "mean_iat_offpeak": 8.0,
+        "mean_iat_rush": 3.0,
+        "p_etc": 0.6,
+        "n_manual_lanes": 3,
+        "n_etc_lanes": 2,
+        "n_hybrid_lanes": 0,
+        "manual_service": {
+          "distribution": "triangular",
+          "params": [
+            8.0,
+            14.0,
+            25.0
+          ]
+        },
+        "etc_service": {
+          "distribution": "uniform",
+          "params": [
+            2.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "F1_2M3E",
+      "factor": "F1: manual booths (5 lanes)",
+      "level": "2M + 3E",
+      "config": {
+        "horizon": 43200.0,
+        "rush_start": 14400.0,
+        "rush_end": 21600.0,
+        "mean_iat_offpeak": 8.0,
+        "mean_iat_rush": 3.0,
+        "p_etc": 0.6,
+        "n_manual_lanes": 2,
+        "n_etc_lanes": 3,
+        "n_hybrid_lanes": 0,
+        "manual_service": {
+          "distribution": "triangular",
+          "params": [
+            8.0,
+            14.0,
+            25.0
+          ]
+        },
+        "etc_service": {
+          "distribution": "uniform",
+          "params": [
+            2.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "F1_4M1E",
+      "factor": "F1: manual booths (5 lanes)",
+      "level": "4M + 1E",
+      "config": {
+        "horizon": 43200.0,
+        "rush_start": 14400.0,
+        "rush_end": 21600.0,
+        "mean_iat_offpeak": 8.0,
+        "mean_iat_rush": 3.0,
+        "p_etc": 0.6,
+        "n_manual_lanes": 4,
+        "n_etc_lanes": 1,
+        "n_hybrid_lanes": 0,
+        "manual_service": {
+          "distribution": "triangular",
+          "params": [
+            8.0,
+            14.0,
+            25.0
+          ]
+        },
+        "etc_service": {
+          "distribution": "uniform",
+          "params": [
+            2.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "F2_p40",
+      "factor": "F2: ETC adoption",
+      "level": "p_etc = 0.40",
+      "config": {
+        "horizon": 43200.0,
+        "rush_start": 14400.0,
+        "rush_end": 21600.0,
+        "mean_iat_offpeak": 8.0,
+        "mean_iat_rush": 3.0,
+        "p_etc": 0.4,
+        "n_manual_lanes": 3,
+        "n_etc_lanes": 2,
+        "n_hybrid_lanes": 0,
+        "manual_service": {
+          "distribution": "triangular",
+          "params": [
+            8.0,
+            14.0,
+            25.0
+          ]
+        },
+        "etc_service": {
+          "distribution": "uniform",
+          "params": [
+            2.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "F2_p80",
+      "factor": "F2: ETC adoption",
+      "level": "p_etc = 0.80",
+      "config": {
+        "horizon": 43200.0,
+        "rush_start": 14400.0,
+        "rush_end": 21600.0,
+        "mean_iat_offpeak": 8.0,
+        "mean_iat_rush": 3.0,
+        "p_etc": 0.8,
+        "n_manual_lanes": 3,
+        "n_etc_lanes": 2,
+        "n_hybrid_lanes": 0,
+        "manual_service": {
+          "distribution": "triangular",
+          "params": [
+            8.0,
+            14.0,
+            25.0
+          ]
+        },
+        "etc_service": {
+          "distribution": "uniform",
+          "params": [
+            2.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "F3_hybrid",
+      "factor": "F3: hybrid lane",
+      "level": "2M + 2E + 1H",
+      "config": {
+        "horizon": 43200.0,
+        "rush_start": 14400.0,
+        "rush_end": 21600.0,
+        "mean_iat_offpeak": 8.0,
+        "mean_iat_rush": 3.0,
+        "p_etc": 0.6,
+        "n_manual_lanes": 2,
+        "n_etc_lanes": 2,
+        "n_hybrid_lanes": 1,
+        "manual_service": {
+          "distribution": "triangular",
+          "params": [
+            8.0,
+            14.0,
+            25.0
+          ]
+        },
+        "etc_service": {
+          "distribution": "uniform",
+          "params": [
+            2.0,
+            4.0
+          ]
+        }
+      }
+    }
+  ],
+  "littles_law_check_sample_runs": {
+    "baseline": {
+      "area_under_N_t": 60298.93477636428,
+      "sum_of_vehicle_times": 60298.93477636427,
+      "relative_difference": 1.2066477859299474e-16
+    },
+    "F1_2M3E": {
+      "area_under_N_t": 211250.03812018447,
+      "sum_of_vehicle_times": 211250.03812018444,
+      "relative_difference": 1.377695867689072e-16
+    },
+    "F1_4M1E": {
+      "area_under_N_t": 59540.95672759595,
+      "sum_of_vehicle_times": 59540.95672759594,
+      "relative_difference": 1.2220088513981128e-16
+    },
+    "F2_p40": {
+      "area_under_N_t": 220250.60306692123,
+      "sum_of_vehicle_times": 220250.6030669213,
+      "relative_difference": 2.6427923512101123e-16
+    },
+    "F2_p80": {
+      "area_under_N_t": 38016.10462285004,
+      "sum_of_vehicle_times": 38016.104622850035,
+      "relative_difference": 1.9139145597284905e-16
+    },
+    "F3_hybrid": {
+      "area_under_N_t": 60219.925382587804,
+      "sum_of_vehicle_times": 60219.9253825878,
+      "relative_difference": 1.208230924890389e-16
+    }
+  },
+  "versions": {
+    "python": "3.13.18",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "simpy": "unknown"
+  }
+}

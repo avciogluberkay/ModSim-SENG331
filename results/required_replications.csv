@@ -1,0 +1,173 @@
+scenario,factor,level_label,metric,level,group,period,confidence,beta,n0,t_crit_n0,pilot_mean,pilot_std,pilot_half_width,n_star,n_final,pilot_meets_beta
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,M1,all,0.95,0.1,30,2.045229642,2.336844467,0.3226869305,0.1204932801,44,44,False
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,M1,all,0.95,1,30,2.045229642,2.336844467,0.3226869305,0.1204932801,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,M1,all,0.95,0.5,30,2.045229642,2.336844467,0.3226869305,0.1204932801,2,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,M1,all,0.95,0.25,30,2.045229642,2.336844467,0.3226869305,0.1204932801,7,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,M2,all,0.95,0.1,30,2.045229642,2.015696024,0.4493318401,0.1677832665,85,85,False
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,M2,all,0.95,1,30,2.045229642,2.015696024,0.4493318401,0.1677832665,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,M2,all,0.95,0.5,30,2.045229642,2.015696024,0.4493318401,0.1677832665,4,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,M2,all,0.95,0.25,30,2.045229642,2.015696024,0.4493318401,0.1677832665,14,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,M3,all,0.95,0.1,30,2.045229642,1.967445287,0.569827595,0.2127771209,136,136,False
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,M3,all,0.95,1,30,2.045229642,1.967445287,0.569827595,0.2127771209,2,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,M3,all,0.95,0.5,30,2.045229642,1.967445287,0.569827595,0.2127771209,6,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,M3,all,0.95,0.25,30,2.045229642,1.967445287,0.569827595,0.2127771209,22,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,E1,all,0.95,0.1,30,2.045229642,0.09668945324,0.01009802557,0.003770664717,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,E1,all,0.95,1,30,2.045229642,0.09668945324,0.01009802557,0.003770664717,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,E1,all,0.95,0.5,30,2.045229642,0.09668945324,0.01009802557,0.003770664717,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,E1,all,0.95,0.25,30,2.045229642,0.09668945324,0.01009802557,0.003770664717,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,E2,all,0.95,0.1,30,2.045229642,0.06471742007,0.01639864738,0.006123355565,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,E2,all,0.95,1,30,2.045229642,0.06471742007,0.01639864738,0.006123355565,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,E2,all,0.95,0.5,30,2.045229642,0.06471742007,0.01639864738,0.006123355565,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane,E2,all,0.95,0.25,30,2.045229642,0.06471742007,0.01639864738,0.006123355565,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane_kind,manual,all,0.95,0.1,30,2.045229642,2.173341322,0.3934113876,0.1469022264,65,65,False
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane_kind,manual,all,0.95,1,30,2.045229642,2.173341322,0.3934113876,0.1469022264,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane_kind,manual,all,0.95,0.5,30,2.045229642,2.173341322,0.3934113876,0.1469022264,3,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane_kind,manual,all,0.95,0.25,30,2.045229642,2.173341322,0.3934113876,0.1469022264,11,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane_kind,etc,all,0.95,0.1,30,2.045229642,0.0898486691,0.01072705612,0.004005548583,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane_kind,etc,all,0.95,1,30,2.045229642,0.0898486691,0.01072705612,0.004005548583,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane_kind,etc,all,0.95,0.5,30,2.045229642,0.0898486691,0.01072705612,0.004005548583,1,30,True
+baseline,baseline,"3M + 2E, p_etc = 0.60",avg_delay,lane_kind,etc,all,0.95,0.25,30,2.045229642,0.0898486691,0.01072705612,0.004005548583,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,M1,all,0.95,0.1,30,2.045229642,78.9516409,37.04410251,13.83249521,574014,574014,False
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,M1,all,0.95,1,30,2.045229642,78.9516409,37.04410251,13.83249521,5741,5741,False
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,M1,all,0.95,0.5,30,2.045229642,78.9516409,37.04410251,13.83249521,22961,22961,False
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,M1,all,0.95,0.25,30,2.045229642,78.9516409,37.04410251,13.83249521,91843,91843,False
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,M2,all,0.95,0.1,30,2.045229642,111.8378326,54.06345584,20.18762618,1222621,1222621,False
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,M2,all,0.95,1,30,2.045229642,111.8378326,54.06345584,20.18762618,12227,12227,False
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,M2,all,0.95,0.5,30,2.045229642,111.8378326,54.06345584,20.18762618,48905,48905,False
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,M2,all,0.95,0.25,30,2.045229642,111.8378326,54.06345584,20.18762618,195620,195620,False
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,E1,all,0.95,0.1,30,2.045229642,0.01273642815,0.003105520437,0.001159620389,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,E1,all,0.95,1,30,2.045229642,0.01273642815,0.003105520437,0.001159620389,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,E1,all,0.95,0.5,30,2.045229642,0.01273642815,0.003105520437,0.001159620389,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,E1,all,0.95,0.25,30,2.045229642,0.01273642815,0.003105520437,0.001159620389,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,E2,all,0.95,0.1,30,2.045229642,0.007569696835,0.005049015738,0.001885333461,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,E2,all,0.95,1,30,2.045229642,0.007569696835,0.005049015738,0.001885333461,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,E2,all,0.95,0.5,30,2.045229642,0.007569696835,0.005049015738,0.001885333461,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,E2,all,0.95,0.25,30,2.045229642,0.007569696835,0.005049015738,0.001885333461,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,E3,all,0.95,0.1,30,2.045229642,0.004711311049,0.007978116981,0.00297907784,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,E3,all,0.95,1,30,2.045229642,0.004711311049,0.007978116981,0.00297907784,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,E3,all,0.95,0.5,30,2.045229642,0.004711311049,0.007978116981,0.00297907784,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane,E3,all,0.95,0.25,30,2.045229642,0.004711311049,0.007978116981,0.00297907784,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane_kind,manual,all,0.95,0.1,30,2.045229642,92.1951173,43.93961378,16.40732143,807601,807601,False
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane_kind,manual,all,0.95,1,30,2.045229642,92.1951173,43.93961378,16.40732143,8077,8077,False
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane_kind,manual,all,0.95,0.5,30,2.045229642,92.1951173,43.93961378,16.40732143,32305,32305,False
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane_kind,manual,all,0.95,0.25,30,2.045229642,92.1951173,43.93961378,16.40732143,129217,129217,False
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane_kind,etc,all,0.95,0.1,30,2.045229642,0.01135958905,0.003056425926,0.001141288198,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane_kind,etc,all,0.95,1,30,2.045229642,0.01135958905,0.003056425926,0.001141288198,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane_kind,etc,all,0.95,0.5,30,2.045229642,0.01135958905,0.003056425926,0.001141288198,1,30,True
+F1_2M3E,F1: manual booths (5 lanes),2M + 3E,avg_delay,lane_kind,etc,all,0.95,0.25,30,2.045229642,0.01135958905,0.003056425926,0.001141288198,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M1,all,0.95,0.1,30,2.045229642,0.6784764692,0.0943347887,0.03522518901,4,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M1,all,0.95,1,30,2.045229642,0.6784764692,0.0943347887,0.03522518901,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M1,all,0.95,0.5,30,2.045229642,0.6784764692,0.0943347887,0.03522518901,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M1,all,0.95,0.25,30,2.045229642,0.6784764692,0.0943347887,0.03522518901,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M2,all,0.95,0.1,30,2.045229642,0.4580847305,0.11201244,0.04182613249,6,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M2,all,0.95,1,30,2.045229642,0.4580847305,0.11201244,0.04182613249,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M2,all,0.95,0.5,30,2.045229642,0.4580847305,0.11201244,0.04182613249,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M2,all,0.95,0.25,30,2.045229642,0.4580847305,0.11201244,0.04182613249,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M3,all,0.95,0.1,30,2.045229642,0.3365191161,0.1102981034,0.0411859887,6,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M3,all,0.95,1,30,2.045229642,0.3365191161,0.1102981034,0.0411859887,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M3,all,0.95,0.5,30,2.045229642,0.3365191161,0.1102981034,0.0411859887,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M3,all,0.95,0.25,30,2.045229642,0.3365191161,0.1102981034,0.0411859887,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M4,all,0.95,0.1,30,2.045229642,0.2289046388,0.1466933741,0.05477620612,10,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M4,all,0.95,1,30,2.045229642,0.2289046388,0.1466933741,0.05477620612,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M4,all,0.95,0.5,30,2.045229642,0.2289046388,0.1466933741,0.05477620612,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,M4,all,0.95,0.25,30,2.045229642,0.2289046388,0.1466933741,0.05477620612,2,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,E1,all,0.95,0.1,30,2.045229642,1.091972278,0.124562878,0.04651254305,7,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,E1,all,0.95,1,30,2.045229642,1.091972278,0.124562878,0.04651254305,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,E1,all,0.95,0.5,30,2.045229642,1.091972278,0.124562878,0.04651254305,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane,E1,all,0.95,0.25,30,2.045229642,1.091972278,0.124562878,0.04651254305,2,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane_kind,manual,all,0.95,0.1,30,2.045229642,0.5317520416,0.08868122998,0.03311411549,4,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane_kind,manual,all,0.95,1,30,2.045229642,0.5317520416,0.08868122998,0.03311411549,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane_kind,manual,all,0.95,0.5,30,2.045229642,0.5317520416,0.08868122998,0.03311411549,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane_kind,manual,all,0.95,0.25,30,2.045229642,0.5317520416,0.08868122998,0.03311411549,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane_kind,etc,all,0.95,0.1,30,2.045229642,1.091972278,0.124562878,0.04651254305,7,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane_kind,etc,all,0.95,1,30,2.045229642,1.091972278,0.124562878,0.04651254305,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane_kind,etc,all,0.95,0.5,30,2.045229642,1.091972278,0.124562878,0.04651254305,1,30,True
+F1_4M1E,F1: manual booths (5 lanes),4M + 1E,avg_delay,lane_kind,etc,all,0.95,0.25,30,2.045229642,1.091972278,0.124562878,0.04651254305,2,30,True
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,M1,all,0.95,0.1,30,2.045229642,63.51734803,26.47162316,9.884666539,293120,293120,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,M1,all,0.95,1,30,2.045229642,63.51734803,26.47162316,9.884666539,2932,2932,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,M1,all,0.95,0.5,30,2.045229642,63.51734803,26.47162316,9.884666539,11725,11725,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,M1,all,0.95,0.25,30,2.045229642,63.51734803,26.47162316,9.884666539,46900,46900,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,M2,all,0.95,0.1,30,2.045229642,82.15493744,35.30517278,13.18316817,521388,521388,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,M2,all,0.95,1,30,2.045229642,82.15493744,35.30517278,13.18316817,5214,5214,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,M2,all,0.95,0.5,30,2.045229642,82.15493744,35.30517278,13.18316817,20856,20856,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,M2,all,0.95,0.25,30,2.045229642,82.15493744,35.30517278,13.18316817,83423,83423,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,M3,all,0.95,0.1,30,2.045229642,114.1077718,49.24110614,18.38693121,1014238,1014238,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,M3,all,0.95,1,30,2.045229642,114.1077718,49.24110614,18.38693121,10143,10143,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,M3,all,0.95,0.5,30,2.045229642,114.1077718,49.24110614,18.38693121,40570,40570,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,M3,all,0.95,0.25,30,2.045229642,114.1077718,49.24110614,18.38693121,162279,162279,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,E1,all,0.95,0.1,30,2.045229642,0.04110024817,0.007075392249,0.002641994886,1,30,True
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,E1,all,0.95,1,30,2.045229642,0.04110024817,0.007075392249,0.002641994886,1,30,True
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,E1,all,0.95,0.5,30,2.045229642,0.04110024817,0.007075392249,0.002641994886,1,30,True
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,E1,all,0.95,0.25,30,2.045229642,0.04110024817,0.007075392249,0.002641994886,1,30,True
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,E2,all,0.95,0.1,30,2.045229642,0.02407340567,0.0116033422,0.004332759186,1,30,True
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,E2,all,0.95,1,30,2.045229642,0.02407340567,0.0116033422,0.004332759186,1,30,True
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,E2,all,0.95,0.5,30,2.045229642,0.02407340567,0.0116033422,0.004332759186,1,30,True
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane,E2,all,0.95,0.25,30,2.045229642,0.02407340567,0.0116033422,0.004332759186,1,30,True
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane_kind,manual,all,0.95,0.1,30,2.045229642,81.30971905,34.68188323,12.95042803,503141,503141,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane_kind,manual,all,0.95,1,30,2.045229642,81.30971905,34.68188323,12.95042803,5032,5032,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane_kind,manual,all,0.95,0.5,30,2.045229642,81.30971905,34.68188323,12.95042803,20126,20126,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane_kind,manual,all,0.95,0.25,30,2.045229642,81.30971905,34.68188323,12.95042803,80503,80503,False
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane_kind,etc,all,0.95,0.1,30,2.045229642,0.03830629653,0.007216712883,0.002694764878,1,30,True
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane_kind,etc,all,0.95,1,30,2.045229642,0.03830629653,0.007216712883,0.002694764878,1,30,True
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane_kind,etc,all,0.95,0.5,30,2.045229642,0.03830629653,0.007216712883,0.002694764878,1,30,True
+F2_p40,F2: ETC adoption,p_etc = 0.40,avg_delay,lane_kind,etc,all,0.95,0.25,30,2.045229642,0.03830629653,0.007216712883,0.002694764878,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,M1,all,0.95,0.1,30,2.045229642,0.3420943283,0.06323737944,0.02361322556,2,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,M1,all,0.95,1,30,2.045229642,0.3420943283,0.06323737944,0.02361322556,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,M1,all,0.95,0.5,30,2.045229642,0.3420943283,0.06323737944,0.02361322556,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,M1,all,0.95,0.25,30,2.045229642,0.3420943283,0.06323737944,0.02361322556,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,M2,all,0.95,0.1,30,2.045229642,0.2107634146,0.1113039066,0.04156156177,6,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,M2,all,0.95,1,30,2.045229642,0.2107634146,0.1113039066,0.04156156177,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,M2,all,0.95,0.5,30,2.045229642,0.2107634146,0.1113039066,0.04156156177,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,M2,all,0.95,0.25,30,2.045229642,0.2107634146,0.1113039066,0.04156156177,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,M3,all,0.95,0.1,30,2.045229642,0.1295068159,0.115253015,0.0430361831,6,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,M3,all,0.95,1,30,2.045229642,0.1295068159,0.115253015,0.0430361831,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,M3,all,0.95,0.5,30,2.045229642,0.1295068159,0.115253015,0.0430361831,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,M3,all,0.95,0.25,30,2.045229642,0.1295068159,0.115253015,0.0430361831,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,E1,all,0.95,0.1,30,2.045229642,0.1752269253,0.01321353567,0.004934015308,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,E1,all,0.95,1,30,2.045229642,0.1752269253,0.01321353567,0.004934015308,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,E1,all,0.95,0.5,30,2.045229642,0.1752269253,0.01321353567,0.004934015308,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,E1,all,0.95,0.25,30,2.045229642,0.1752269253,0.01321353567,0.004934015308,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,E2,all,0.95,0.1,30,2.045229642,0.1291072481,0.02492987105,0.00930896684,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,E2,all,0.95,1,30,2.045229642,0.1291072481,0.02492987105,0.00930896684,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,E2,all,0.95,0.5,30,2.045229642,0.1291072481,0.02492987105,0.00930896684,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane,E2,all,0.95,0.25,30,2.045229642,0.1291072481,0.02492987105,0.00930896684,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane_kind,manual,all,0.95,0.1,30,2.045229642,0.2892082513,0.06323052876,0.02361066747,2,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane_kind,manual,all,0.95,1,30,2.045229642,0.2892082513,0.06323052876,0.02361066747,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane_kind,manual,all,0.95,0.5,30,2.045229642,0.2892082513,0.06323052876,0.02361066747,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane_kind,manual,all,0.95,0.25,30,2.045229642,0.2892082513,0.06323052876,0.02361066747,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane_kind,etc,all,0.95,0.1,30,2.045229642,0.1634979932,0.01514576473,0.005655521496,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane_kind,etc,all,0.95,1,30,2.045229642,0.1634979932,0.01514576473,0.005655521496,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane_kind,etc,all,0.95,0.5,30,2.045229642,0.1634979932,0.01514576473,0.005655521496,1,30,True
+F2_p80,F2: ETC adoption,p_etc = 0.80,avg_delay,lane_kind,etc,all,0.95,0.25,30,2.045229642,0.1634979932,0.01514576473,0.005655521496,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,M1,all,0.95,0.1,30,2.045229642,2.368428548,0.3354049476,0.1252422657,48,48,False
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,M1,all,0.95,1,30,2.045229642,2.368428548,0.3354049476,0.1252422657,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,M1,all,0.95,0.5,30,2.045229642,2.368428548,0.3354049476,0.1252422657,2,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,M1,all,0.95,0.25,30,2.045229642,2.368428548,0.3354049476,0.1252422657,8,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,M2,all,0.95,0.1,30,2.045229642,2.061089098,0.4400381041,0.1643129285,81,81,False
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,M2,all,0.95,1,30,2.045229642,2.061089098,0.4400381041,0.1643129285,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,M2,all,0.95,0.5,30,2.045229642,2.061089098,0.4400381041,0.1643129285,4,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,M2,all,0.95,0.25,30,2.045229642,2.061089098,0.4400381041,0.1643129285,13,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,E1,all,0.95,0.1,30,2.045229642,0.04756824138,0.007097377806,0.002650204427,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,E1,all,0.95,1,30,2.045229642,0.04756824138,0.007097377806,0.002650204427,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,E1,all,0.95,0.5,30,2.045229642,0.04756824138,0.007097377806,0.002650204427,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,E1,all,0.95,0.25,30,2.045229642,0.04756824138,0.007097377806,0.002650204427,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,E2,all,0.95,0.1,30,2.045229642,0.033700381,0.009827666749,0.003669711074,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,E2,all,0.95,1,30,2.045229642,0.033700381,0.009827666749,0.003669711074,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,E2,all,0.95,0.5,30,2.045229642,0.033700381,0.009827666749,0.003669711074,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,E2,all,0.95,0.25,30,2.045229642,0.033700381,0.009827666749,0.003669711074,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,H1,all,0.95,0.1,30,2.045229642,1.720123939,0.4598979085,0.1717287013,89,89,False
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,H1,all,0.95,1,30,2.045229642,1.720123939,0.4598979085,0.1717287013,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,H1,all,0.95,0.5,30,2.045229642,1.720123939,0.4598979085,0.1717287013,4,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane,H1,all,0.95,0.25,30,2.045229642,1.720123939,0.4598979085,0.1717287013,15,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,manual,all,0.95,0.1,30,2.045229642,2.251415016,0.3693860037,0.1379310006,58,58,False
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,manual,all,0.95,1,30,2.045229642,2.251415016,0.3693860037,0.1379310006,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,manual,all,0.95,0.5,30,2.045229642,2.251415016,0.3693860037,0.1379310006,3,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,manual,all,0.95,0.25,30,2.045229642,2.251415016,0.3693860037,0.1379310006,10,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,etc,all,0.95,0.1,30,2.045229642,0.04461771767,0.007158139571,0.002672893244,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,etc,all,0.95,1,30,2.045229642,0.04461771767,0.007158139571,0.002672893244,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,etc,all,0.95,0.5,30,2.045229642,0.04461771767,0.007158139571,0.002672893244,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,etc,all,0.95,0.25,30,2.045229642,0.04461771767,0.007158139571,0.002672893244,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,hybrid,all,0.95,0.1,30,2.045229642,1.720123939,0.4598979085,0.1717287013,89,89,False
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,hybrid,all,0.95,1,30,2.045229642,1.720123939,0.4598979085,0.1717287013,1,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,hybrid,all,0.95,0.5,30,2.045229642,1.720123939,0.4598979085,0.1717287013,4,30,True
+F3_hybrid,F3: hybrid lane,2M + 2E + 1H,avg_delay,lane_kind,hybrid,all,0.95,0.25,30,2.045229642,1.720123939,0.4598979085,0.1717287013,15,30,True

@@ -1,0 +1,39 @@
+{
+  "confidence": 0.95,
+  "beta_seconds": 0.1,
+  "target_metrics": "avg_delay per lane and per lane kind, whole day",
+  "formula": "n* = ceil((t_{1-alpha/2, n0-1} * s / beta)^2)",
+  "n0": 30,
+  "baseline_n_star_pilot": 136,
+  "baseline_n_star_after_refinement": 167,
+  "baseline_n_used": 167,
+  "driving_metric": {
+    "level": "lane",
+    "group": "M3"
+  },
+  "replications_per_scenario": {
+    "baseline": 167,
+    "F1_2M3E": 167,
+    "F1_4M1E": 167,
+    "F2_p40": 167,
+    "F2_p80": 167,
+    "F3_hybrid": 167
+  },
+  "own_pilot_n_star_per_scenario": {
+    "baseline": 136,
+    "F1_2M3E": 1222621,
+    "F1_4M1E": 30,
+    "F2_p40": 1014238,
+    "F2_p80": 30,
+    "F3_hybrid": 89
+  },
+  "capped": {
+    "baseline": false,
+    "F1_2M3E": false,
+    "F1_4M1E": false,
+    "F2_p40": false,
+    "F2_p80": false,
+    "F3_hybrid": false
+  },
+  "mode": "baseline n* for all scenarios"
+}
